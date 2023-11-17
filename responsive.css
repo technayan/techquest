@@ -1,0 +1,150 @@
+/* ======= Responsive CSS ======= */
+@media (max-width: 575.98px) {
+    /* Common CSS */
+    .primary-btn {
+        padding: 10px 25px;
+    }
+
+    /* Hero Section */
+    .hero-section .carousel-item {
+        height: 560px;
+    }
+
+    .hero-section .carousel-info {
+        text-align: center;
+    }
+
+    .hero-section .carousel-slogan {
+        font-size: 10px;
+        line-height: 32px;
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+
+    .hero-section .carousel-title {
+        font-size: 30px;
+        line-height: 72px;
+        margin: 0;
+    }
+
+    .hero-section .carousel-text {
+        font-size: 10px;
+    }
+
+    .hero-section .carousel-img {
+        width: 270px;
+        top: -150px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .hero-section .carousel-control-prev,
+    .hero-section .carousel-control-next {
+        display: none;
+    }
+
+    .hero-section .carousel-indicators {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-section .carousel-indicators button {
+        background-color: #fff;
+        opacity: 1;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+
+    .hero-section .carousel-indicators .active {
+        opacity: 1;
+        background-color: #7559ed !important;
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    /* Featured Section */
+    .featured-product-section .ipad-img {
+        width: 360px;
+        top: 30%;
+        left: -24%;
+    }
+
+    .featured-product-section .ipad-title {
+        font-size: 35px;
+        margin-top: 36px;
+    }
+
+    .featured-product-section .ipad-desc {
+        margin-bottom: 36px;
+    }
+
+    .featured-product-section .airpods-img {
+        width: 320px;
+        top: -5%;
+        left: -85%;
+    }
+    
+    .featured-product-section .featured-macbook {
+        padding: 100px 0 44px; 
+    }
+
+    .featured-product-section .macbook-img {
+        position:static;
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    /* Category Section */
+    .category-section {
+        padding: 48px 0;
+    }
+
+    /* Category Section */
+    .products-section .tab-btns .tab {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .products-section .product {
+        padding: 24px 12px;
+    }
+
+    .products-section .product-name {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+
+    /* Banner Section */
+    .banner-section {
+        overflow: hidden;
+    }
+
+    .banner-section .banner-img-left {
+        position: static;
+        margin: -165px 0 30px 75px;
+        width: 250px;
+    }
+
+    .banner-section .banner-img-right {
+        position: static;
+        margin: 20px 0 -170px 120px;
+        width: 300px;
+    }
+
+    .banner-section .banner-title {
+        font-size: 63px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 70px 0;
+        text-align: center;
+    }
+
+    footer .social-link {
+        font-size: 25px;
+    }
+}

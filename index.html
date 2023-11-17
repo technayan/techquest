@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap v5.3.2 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Remix Icon v3.5.0 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="responsive.css">
+    <title>TechQuest | Online Shop</title>
+</head>
+<body>
+    <!--=========
+        Header
+    ========= -->
+    <header>
+        <!--======== Navbar ========-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/logo.svg" alt="TechQuest" class="img-fluid">
+              </a>
+              <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="ri-menu-2-line"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex nav-search-bar mt-4 mt-lg-0" role="search">
+                    <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-3 mt-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <button class="nav-btn mb-3 mb-lg-0 me-1"><i class="ri-shopping-cart-2-line"></i></button>
+                <button class="nav-btn me-0 mb-3 mb-lg-0 me-1"><i class="ri-user-line"></i></button>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <!--=========
+        Main
+    ========= -->
+    <main>
+        <!--======== Hero Section ========-->
+        <section class="hero-section">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators d-lg-none">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container h-100">
+                            <div class="row h-100">
+                                <div class="col-md-7 d-lg-flex align-items-center">
+                                    <div class="carousel-info">
+                                        <p class="carousel-slogan">Pro.Beyond.</p>
+                                        <h1 class="carousel-title">IPhone <span>14 Pro</span></h1>
+                                        <p class="coursel-text">Created to change everything for the better. For everyone.</p>
+                                        <a href="#" class="primary-btn carousel-btn text-white d-none d-lg-inline-block">Shop Now</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 position-relative">
+                                    <img src="./assets/Iphone-14-pro.png" alt="Iphone 14 Pro" class="img-fluid position-absolute carousel-img" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container h-100">
+                            <div class="row h-100">
+                                <div class="col-md-7 d-flex align-items-center">
+                                    <div class="carousel-info">
+                                        <p class="carousel-slogan">Pro.Beyond.</p>
+                                        <h1 class="carousel-title">IPad <span>Pro</span></h1>
+                                        <p class="coursel-text">Created to change everything for the better. For everyone.</p>
+                                        <a href="#" class="primary-btn carousel-btn text-white d-inline-block">Shop Now</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 position-relative">
+                                    <img src="./assets/tab1.png" alt="Iphone 14 Pro" class="img-fluid position-absolute carousel-img" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <i class="ri-arrow-left-s-line"></i>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <i class="ri-arrow-right-s-line"></i>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+
+        <!--======== Featured Product Section ========-->
+        <section class="featured-product-section">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="row featured-ipad">
+                                <div class="col-6 col-lg-5 position-relative overflow-hidden">
+                                    <img src="./assets/ipad.png" alt="iPad 9" class="ipad-img">
+                                </div>
+                                <div class="col-6 col-lg-7 ps-4">
+                                    <h2 class="ipad-title">iPad 9</h2>
+                                    <p class="ipad-desc">The iPad 9: Sleek design, vibrant Retina display, powerful performance, and versatile features for seamless productivity, entertainment, and creativity.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="row featured-airpods">
+                                <div class="col-5 col-lg-8 position-relative overflow-hidden">
+                                    <img src="./assets/airpod-max-silver.png" alt="Apple Airpods Max" class="airpods-img">
+                                </div>
+                                <div class="col-7 col-lg-4 overflow-hidden">
+                                    <h2 class="airpods-title"><span>Apple <br>AirPods</span><br>Max</h2>
+                                    <p class="airpods-desc">Immerse in premium sound with Apple AirPods Max, audio luxury.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 featured-macbook">
+                    <div class="row h-100">
+                        <div class="col-lg-7 px-5 ps-lg-5 pe-lg-0 d-flex flex-column justify-content-center align-items-start">
+                            <h2 class="macbook-title"><span>Macbook</span><br>Air</h2>
+                            <p class="macbook-desc">Ultra-sleek MacBook Air: Feather-light design, stunning Retina display, powerful performance – Apple innovation redefined.</p>
+                            <a href="#" class="primary-btn d-inline-block">Shop Now</a>
+                        </div>
+                        <div class="col-lg-5 position-relative overflow-hidden text-center">
+                            <img src="./assets/macbook-air.png" alt="Macbook Air" class="macbook-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!--======== Category Section ========-->
+        <section class="category-section">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <h3 class="section-title">Browse By Category</h3>
+
+                    <div class="arrow-btn">
+                        <button><i class="ri-arrow-left-s-line"></i></button>
+                        <button><i class="ri-arrow-right-s-line"></i></button>
+                    </div>
+                </div>
+
+                <div class="row g-3 mt-4">
+                    <div class="col-6 col-md-2">
+                        <button class="category">
+                            <img src="./assets/icons/Phones.svg" alt="Phone" class="img-fluid">
+                            <h5 class="category-name">Phones</h5>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <button class="category">
+                            <img src="./assets/icons/Smart Watches.svg" alt="Watch" class="img-fluid">
+                            <h5 class="category-name">Smart Watches</h5>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <button class="category">
+                            <img src="./assets/icons/Cameras.svg" alt="Camera" class="img-fluid">
+                            <h5 class="category-name">Cameras</h5>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <button class="category">
+                            <img src="./assets/icons/Headphones.svg" alt="Headphones" class="img-fluid">
+                            <h5 class="category-name">Headphones</h5>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <button class="category">
+                            <img src="./assets/icons/Computers.svg" alt="Computers" class="img-fluid">
+                            <h5 class="category-name">Computers</h5>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <button class="category">
+                            <img src="./assets/icons/Gaming.svg" alt="Gaming" class="img-fluid">
+                            <h5 class="category-name">Gaming</h5>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--======== Products Section ========-->
+        <section class="products-section">
+            <div class="container">
+                <div class="tab-btns">
+                    <button class="tab active">New Arrival</button>
+                    <button class="tab">Best Seller</button>
+                    <button class="tab">Featured Products</button>
+                </div>
+
+                <div class="row g-3 mt-5">
+                    <div class="col-6 col-md-3">
+                        <div class="product text-center">
+                            <div class="product-info">
+                                <div class="d-flex justify-content-end">
+                                    <button class="wishlist-btn"><i class="ri-heart-line"></i></button>
+                                </div>
+                                <img src="./assets/Iphone-14-pro-max.png" alt="IPhone 14 Pro Max" class="product-img img-fluid">
+                                <h4 class="product-name">Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)</h4>
+                                <h3 class="product-price">$900</h3>
+                            </div>
+                            <a href="#" class="primary-btn product-btn text-white d-inline-block">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="product text-center">
+                            <div class="product-info">
+                                <div class="d-flex justify-content-end">
+                                    <button class="wishlist-btn"><i class="ri-heart-line"></i></button>
+                                </div>
+                                <img src="./assets/pocket-cinema-camera.png" alt="Pocket Cinema Camera" class="product-img img-fluid">
+                                <h4 class="product-name">Blackmagic Pocket Cinema Camera 6k</h4>
+                                <h3 class="product-price">$2535</h3>
+                            </div>
+                            <a href="#" class="primary-btn product-btn text-white d-inline-block">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="product text-center">
+                            <div class="product-info">
+                                <div class="d-flex justify-content-end">
+                                    <button class="wishlist-btn active"><i class="ri-heart-fill"></i></button>
+                                </div>
+                                <img src="./assets/apple-watch.png" alt="Apple Watch" class="product-img img-fluid">
+                                <h4 class="product-name">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</h4>
+                                <h3 class="product-price">$399</h3>
+                            </div>
+                            <a href="#" class="primary-btn product-btn text-white d-inline-block">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="product text-center">
+                            <div class="product-info">
+                                <div class="d-flex justify-content-end">
+                                    <button class="wishlist-btn"><i class="ri-heart-line"></i></button>
+                                </div>
+                                <img src="./assets/airpod-max.png" alt="Airpods Max" class="product-img img-fluid">
+                                <h4 class="product-name">AirPods Max Silver
+                                </h4>
+                                <h3 class="product-price">$549</h3>
+                            </div>
+                            <a href="#" class="primary-btn product-btn text-white d-inline-block">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--======== Banner Section ========-->
+        <section class="banner-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 position-relative">
+                        <img src="./assets/tab1.png" alt="Ipad" class="banner-img-left">
+                    </div>
+                    <div class="col-md-4 text-center d-flex flex-column justify-content-center">
+                        <h3 class="banner-title"><span>11.11</span> Sale</h3>
+                        <p class="banner-desc">Unbeatable discounts, one-day-only deals! Shop smart, save big. Don't miss out on the biggest shopping deal!</p>
+                    </div>
+                    <div class="col-md-4 position-relative">
+                        <img src="./assets/tab2.png" alt="Ipad" class="banner-img-right">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!--=========
+        Footer
+    ========= -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 order-1">
+                    <a href="#" class="footer-logo">
+                        <img src="./assets/logo.svg" alt="TechQuest" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-3 order-4 order-lg-2 mt-4 mt-lg-0 d-flex justify-content-center align-items-start">
+                    <a href="#" class="social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="ri-tiktok-fill"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                </div>
+                <div class="col-md-3 order-2 mt-5 mt-lg-0">
+                    <p>Services</p>
+                    <ul>
+                        <li><a href="#">Bonus program</a></li>
+                        <li><a href="#">Gift cards</a></li>
+                        <li><a href="#">Credit and payment</a></li>
+                        <li><a href="#">Service contracts</a></li>
+                        <li><a href="#">Non-cash account</a></li>
+                        <li><a href="#">Payment</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 order-3 mt-4 mt-lg-0">
+                    <p>Assistance to the buyer</p>
+                    <ul>
+                        <li><a href="#">Find an order</a></li>
+                        <li><a href="#">Terms of delivery</a></li>
+                        <li><a href="#">Exchange and return of goods</a></li>
+                        <li><a href="#">Guarantee</a></li>
+                        <li><a href="#">Freequenty asked question</a></li>
+                        <li><a href="#">Terms of use of the site</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Bootstrap v5.3.2 JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

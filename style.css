@@ -1,0 +1,471 @@
+/* ======= Font ======= */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&display=swap');
+
+
+
+/* ======= Reset CSS ======= */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 16px;
+    line-height: 32px;
+    overflow-x: hidden !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+
+/* ======= Common CSS ======= */
+.primary-btn {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 12px 56px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+
+/* ======= Navbar CSS ======= */
+
+.navbar {
+    background: #1a187a;
+}
+
+.navbar .nav-search-bar {
+    width: 100%;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    opacity: 0.5;
+    transition: 0.3s ease;
+    margin: 0 20px;
+    text-wrap: nowrap;
+}
+
+.navbar .nav-link.active {
+    color: #fff;
+    opacity: 1 !important;
+}
+
+.navbar .nav-link:hover {
+    opacity: 1;
+}
+
+.navbar .nav-btn {
+    background: none;
+    border: none;
+    margin: 0 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar .navbar-toggler {
+    box-shadow: none;
+    font-size: 40px;
+}
+
+
+
+/* ======= Hero Section CSS ======= */
+
+.hero-section .carousel-item{
+    background-image: url(./assets/hero-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 665px;
+    overflow: hidden;
+}
+
+.hero-section .carousel-slogan {
+    font-size: 25px;
+    color: #1e046a;
+    opacity: 0.4;
+}
+
+.hero-section .carousel-title {
+    font-size: 90px;
+    line-height: 72px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    margin: 24px 0;
+}
+
+.hero-section .carousel-title span {
+    font-weight: 600;
+}
+
+.hero-section .carousel-text {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.hero-section .carousel-btn {
+    font-weight: 900;
+    background: #171495;
+    margin-top: 24px;
+    padding: 16px 56px;
+}
+
+.hero-section .carousel-btn:hover {
+    background: #000;
+}
+
+.hero-section .carousel-img {
+    top: 100px;
+    right: 0;
+}
+
+.hero-section .carousel-control-prev,
+.hero-section .carousel-control-next {
+    font-size: 70px;
+    color: #670E86;
+}
+
+.hero-section .carousel-control-prev {
+    left: -25px;
+}
+
+.hero-section .carousel-control-next {
+    right: -25px;
+}
+
+
+/* ======= Featured Product Section CSS ======= */
+
+.featured-product-section .ipad-img {
+    width: 420px;
+    top: 17%;
+    left: -20%;
+    position: absolute;
+}
+
+.featured-product-section .ipad-title {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 88px;   
+    margin-bottom: 16px;
+}
+
+.featured-product-section .ipad-desc {
+    font-size: 14px;
+    line-height: 24px;
+    color: #909090;
+    margin-bottom: 70px;
+    margin-right: 20px;
+}
+
+.featured-product-section .featured-airpods {
+    background: #adc2d7;
+}
+
+.featured-product-section .airpods-title span {
+    font-weight: 300;
+}
+
+.featured-product-section .airpods-title {
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 36px;   
+    margin-bottom: 16px;
+}
+
+.featured-product-section .airpods-desc {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 70px;
+    margin-right: 20px;
+}
+
+.featured-product-section .airpods-img {
+    width: 550px;
+    top: -35%;
+    left: -25%;
+    position: absolute;
+}
+
+.featured-product-section .featured-macbook {
+    background: #ededed;
+}
+
+.featured-product-section .macbook-title span {
+    font-weight: 100;
+}
+
+.featured-product-section .macbook-title {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 56px; 
+    margin-bottom: 16px;
+}
+
+.featured-product-section .macbook-desc {
+    font-size: 14px;
+    line-height: 24px;
+    color: #909090;
+    margin-bottom: 30px;
+}
+
+.featured-product-section .featured-macbook .primary-btn {
+    background: #27448e;
+    color: #fff;
+}
+
+.featured-product-section .featured-macbook .primary-btn:hover {
+    background: #000;
+}
+
+.featured-product-section .macbook-img {
+    width: 750px;
+    top: 15%;
+    left: 0;
+    position: absolute;
+}
+
+
+/* ======= Category Section CSS ======= */
+
+.category-section {
+    padding: 80px 0;
+    background: #fafafa;
+}
+
+.category-section .section-title {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.category-section .category {
+    text-align: center;
+    padding: 24px 0;
+    background: #ededed;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.category-section .category:hover {
+    background: #dfdfdf;
+}
+
+.category-section .category .category-name {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.category-section .arrow-btn button {
+    font-size: 30px;
+    background: none;
+    border: none;
+}
+
+
+/* ======= Products Section CSS ======= */
+
+.products-section {
+    padding: 40px 0;
+}
+
+.products-section .tab-btns .tab {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    background: none;
+    border: none;
+    margin-right: 20px;
+    color: #8B8B8B;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+.products-section .tab-btns .tab.active {
+    color: #000;
+}
+
+.products-section .tab-btns .tab::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #000;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+.products-section .tab-btns .tab.active::after {
+    width: 100%;
+}
+
+.products-section .tab-btns .tab:hover {
+    color: #000;
+}
+
+.products-section .tab-btns .tab:hover::after {
+    width: 100%;
+}
+
+.products-section .product {
+    background: #F6F6F6;
+    border-radius: 10px;
+    padding: 24px 16px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.products-section .product .wishlist-btn {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: none;
+    background: none;
+}
+
+.products-section .product .wishlist-btn.active {
+    color: #f00;
+}
+
+.products-section .product-img {
+    width: 160px;
+    margin: 0 0 16px;
+    transition: 0.5s ease;
+}
+
+.products-section .product:hover img {
+    transform: scale(1.1);
+}
+
+.products-section .product-name {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.products-section .product-price {
+    font-size: 24px;
+    font-weight: 24px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 16px 0 24px;
+}
+
+.products-section .product-btn {
+    background: #000;
+}
+
+.products-section .product-btn:hover {
+    background: #27448e;
+}
+
+
+
+/* ======= Banner Section CSS ======= */
+
+.banner-section {
+    padding: 120px 0;
+    background: #958ad4;
+}
+
+.banner-section .banner-title {
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -1px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.banner-section .banner-title span {
+    color: #25177b;
+}
+
+.banner-section .banner-desc {
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.banner-section .banner-img-left {
+    position: absolute;
+    width: 421px;
+    top: -30%;
+    left: -65%;
+}
+
+.banner-section .banner-img-right {
+    position: absolute;
+    width: 340px;
+    top:-30%;
+    right: -30%;
+}
+
+
+
+/* ======= Footer Section CSS ======= */
+
+footer {
+    background: #0E071b;
+    color: #fff;
+    padding: 100px 0;
+}
+
+footer .social-link {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 15px;
+}
+
+footer .social-link:hover {
+    color: #958ad4;
+}
+
+footer a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #cfcfcf;
+    transition: 0.3s ease;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+footer a:hover {
+    color: #fff;
+}
